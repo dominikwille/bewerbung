@@ -1,0 +1,57 @@
+\documentclass[12pt,a4paper]{moderncv}
+\moderncvtheme[green]{classic} %[blue, green, orange, red, grey]{casual, classic}
+\usepackage{lmodern}
+\usepackage{libertine}
+
+
+\usepackage[ngerman]{babel}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+
+\firstname{}
+\familyname{}
+\title{Lebenslauf}
+%\address{Hindenburgdamm 47\, 12203 Berlin}{}
+%\mobile{0176 - 859 805 11}
+%\phone{030 - 844 1234 0}
+%\email{dominik.wille@fu-berlin.de}
+%\photo[60pt][0.4pt]{picture}
+
+\newcommand{\changefont}[3]{
+\fontfamily{#1} \fontseries{#2} \fontshape{#3} \selectfont}
+
+\begin{document}
+\maketitle
+\changefont{lmr}{m}{n} 
+%\maketitle
+
+\section{Persönliche Angaben}
+\cventry{Name}{Dominik Wille}{}{}{}{}
+\cventry{Geboren am}{22. Januar 1992}{in Berlin}{}{}{}
+\cventry{Familienstand}{ledig}{}{}{}{}
+
+%\cventry{}{}{}{}{}{}
+
+\section{Schulbildung}
+\cventry{1998-2004}{Grundschule}{}{Grundschule an der Bäke}{}{} % arguments 3 to 6 are optional
+\cventry{2004-2011}{Abitur}{}{Goethe-
+ Oberschule Berlin (Gymnasium)}{}{Leistungsf"acher: Mathematik und Chemie \\ Abiturnote: 2,1}
+\cventry{2009}{Betriebspraktikum}{}{im Elektroniklabor des Fritz-Haber-Instituts für 3 Wochen}{}{}
+\cventry{seit 2011}{Studium der Physik}{}{Freie Universität Berlin}{}{Aktueller Notendurchschnitt: 1,8}
+
+\section{Fähigkeiten im Bezug auf das Praktikum}
+\cvlistitem{Erfahrung im Umgang mit dem Lötkolben.}
+\cvlistitem{Umgang mit Funktionsgenerator und Oszilloskop.}
+\cvlistitem{Bedienung von Messgeräten, Verständnis von Schaltplänen.}
+
+\section{Sprachkenntnisse}
+\cventry{}{Deutsch}{Muttersprache}{}{}{}
+\cventry{}{Englisch}{auch mit physikalisch-technischer Fachterminologie}{}{}{}
+
+\section{Computerkenntnisse}
+\cvlistitem{Fortgeschrittene Programmierfähigkeiten in PHP, Java, C.}
+\cvlistitem{Erfahrung im Umgang mit unixoiden Betriebssystemen.}
+\cvlistitem{Textsatz mit LaTeX.}
+\cvlistitem{Tabellenkalkulation, Arbeiten mit Office-Anwendungen.}
+
+\end{document}

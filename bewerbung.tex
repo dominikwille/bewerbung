@@ -1,0 +1,128 @@
+% Copyright 2009-2011 Dominik Wagenfuehr <dominik.wagenfuehr@deesaster.org>
+% Dieses Dokument unterliegt der Creative-Commons-Lizenz
+% "Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland"
+% [http://creativecommons.org/licenses/by-sa/3.0/de/].
+
+\documentclass[12pt,parskip=half-]{scrartcl}
+
+\input{befehle.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Eigene Definitionen
+% Ab hier sollte man selbst Änderungen vornehmen.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Eigene Adresse festgelegt.
+\newcommand*{\VollerName}{Dominik Wille}
+\newcommand*{\AbsenderStrasse}{Hindenburgdamm 47}
+\newcommand*{\AbsenderPLZOrt}{12203 Berlin}
+\newcommand*{\Telefonnr}{\it\Telefon \,030 - 844 1234 0}
+\newcommand*{\Mobile}{\it\Mobilefone \,0176 - 859 805 11}
+\newcommand*{\EMail}{\it\Letter \,dominik.wille@fu-berlin.de}
+\newcommand*{\OrtDatum}{Berlin, \today}
+\newcommand*{\Geburtstag}{1. Januar 1970}
+\newcommand*{\Geburtsort}{Berlin}
+\newcommand*{\Details}{ledig, ortsungebunden} % verheiratet, 2 Kinder, etc.
+\newcommand*{\Ausbildungsgrad}{Promovierter Veterinärmediziner}
+
+% Die Unterschrift sollte als Bilddatei vorliegen.
+\newcommand*{\UnterschriftenDatei}{signatur-bewerber.png}
+
+% Das Bewerberfoto.
+\newcommand*{\BewerberFoto}{foto-bewerber.png}
+
+% Adressat festlegen
+\newcommand*{\Firma}{Erdfisch}
+\newcommand*{\AdressatVorname}{????}
+\newcommand*{\AdressatNachname}{????}
+\newcommand*{\AnschriftStrasse}{????}
+\newcommand*{\AnschriftPLZOrt}{????}
+
+% Die beiden Anreden im Briefkopf und im Text müssen
+% unterschieden werden.
+\newcommand*{\AnredeKopf}{}   % alternativ: Frau
+\newcommand*{\AnredeText}{ Frau}  % alternativ: Frau
+
+% Die Stelle, auf die man sich bewirbt
+\newcommand*{\Bewerberstelle}{Bewerbung für ein Berufspraktikum}
+
+% Der Anschreibentext.
+\newcommand{\AnschreibenText}
+{%
+mein Name ist Dominik Wille, ich studiere Physik im 4. Fachsemester und bewerbe mich hiermit für ein Berufspraktikum in der Abteilung {\bf  Entwicklung Leistungselektronik}, welches im Zeitraum vom {\bf 12.08.2013} - {\bf 07.10.2013} stattfinden, und mindestens 6 Wochen andauern soll.
+
+Seit meinem Betriebspraktikum in der Schule, das ich im Elektroniklabor des {\sc Fritz-Haber-Instituts} absolvierte, kann ich mir auch eine berufliche Zukunft in dieser Fachrichtung gut vorstellen und möchte deshalb die Gelegenheit nutzen, um dahingehend weitere praktische Erfahrungen zu sammeln. 
+
+Schon in meiner Kindheit faszinierten mich elektrische Vorgänge sehr, und so habe ich auch privat als Freizeitaktivität den Umgang mit dem Lötkolben und das Verstehen von einfachen Schaltungen erlernt. Im Rahmen des Studiums konnte ich außerdem viele Erfahrungen im Umgang mit elektrischer Messtechnik in verschiedenen Anwendungen sammeln.  
+
+Aufmerksam auf die Abteilung Entwicklung Leistungselektronik bin ich durch meinen Patenonkel Dieter Radensleben geworden, und da mir das Betriebspraktikum sehr am Herzen liegt würde mich die Entscheidung ihrerseits zu einem Bewerbungsgespräch außerordentlich freuen.
+	
+	
+}
+
+% Hinweis auf Anlagen
+% Wenn nicht benötigt, dann einfach auskommentieren.
+\newcommand{\AnschreibenAnlage}
+{%
+
+}
+
+% Text für die Motivationsseite
+\newcommand{\Motivationstext}
+{%
+    {\itshape
+        Hier steht nun der Motivationstext. Man sollte ein bisschen mehr
+        über sich erzählen und wieso man in der Firma anfangen will.
+        
+        Dabei kann man etwas weiter ausholen, frühere Tätigkeiten
+        beschreiben, aber auch auf private nützliche Dinge eingehen,
+        die bei der Arbeit helfen können.
+        
+        In dem Beispiel hier zum Beispiel die Erfahrungen der
+        Tierartzpraxis und die eigenen Haustiere.
+        
+        Den Hinweis hier natürlich löschen! Das heißt, alles, was in
+        den geschweiften Klammern steht, kann weg.        
+    }
+}
+
+
+% Titel und Autor des PDFs werden automatisch festgelegt,
+% was aber erst nach der Definition des Namens geht.
+\hypersetup{%
+    pdftitle={Bewerbung bei \Firma},
+    pdfauthor={\VollerName},
+    pdfcreator={\VollerName}
+}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Das Anschreiben
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% ggf. braucht man zwischen Anschrift und text etwas Abstand,
+% je nachdem, wie viel man im Anschreiben hat. (Standard ist 1em.)
+% \setlength{\AbstandVorOrt}{2em}
+
+% Normalerweise gibt es zwischen den zwei Adressen im Anschreiben
+% keinen Abstand. Wer dennoch einen will, einfach den Abstand
+% neu setzen. (Standard ist 0em.)
+%\setlength{\AbstandZwischenAdressen}{1em}
+a
+\pagebreak
+\Anschreiben
+%\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Meine Seite
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\MeineSeite
+%\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Lebenslauf
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
