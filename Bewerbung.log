@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.7.7)  19 JUL 2013 17:13
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.7.7)  21 JUL 2013 14:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -171,7 +171,7 @@ File: pppdftex.def 2013/05/30 v0.4u Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count92
 \AM@templatesizebox=\box28
 )
-No file Bewerbung.aux.
+(./Bewerbung.aux)
 \openout1 = `Bewerbung.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
@@ -187,6 +187,7 @@ LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 \AtBeginShipoutBox=\box29
+
 (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count93
@@ -318,8 +319,8 @@ Package pdftex.def Info: Lebenslauf.pdf, page1 used on input line 6.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [2 <./Lebenslauf.pdf>] (./Bewerbung.aux) ) 
 Here is how much of TeX's memory you used:
- 3798 strings out of 493872
- 57641 string characters out of 6153520
+ 3800 strings out of 493872
+ 57669 string characters out of 6153520
  143835 words of memory out of 5000000
  7193 multiletter control sequences out of 15000+600000
  3940 words of font info for 15 fonts, out of 8000000 for 9000
@@ -335,7 +336,7 @@ blic/lm/lmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmr
 12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmr17.pfb></us
 r/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmro12.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on Bewerbung.pdf (2 pages, 235971 bytes).
+Output written on Bewerbung.pdf (2 pages, 235709 bytes).
 PDF statistics:
  80 PDF objects out of 1000 (max. 8388607)
  61 compressed objects within 1 object stream
